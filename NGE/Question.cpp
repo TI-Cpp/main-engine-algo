@@ -42,9 +42,9 @@ int main()
         vector<int> v;
         for (int i = 0; i < n; ++i)
         {
-            int temp;
-            cin >> temp;
-            v.push_back(temp);
+            int tmp;
+            cin >> tmp;
+            v.push_back(tmp);
             nge[st.top()] = i;  //Stoer the index of current element in the places of the elements whose indexes are there
             st.pop(); //Remove those indexes after assingning their NGL
         }

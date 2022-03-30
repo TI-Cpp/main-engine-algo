@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
 
-// //  METHOD 1
-// void unique(int n, int arr[]) {
-//     int j;
-//     for(int i=0; i<n; i++) {
-//         for(j=0; j<n; j++) {
-//             if (i!=j && arr[i]==arr[j])
-//                 break;                    
-//         }
-//         if(j==n)
-//             cout<<arr[i]<<endl;
-//     }
-// }
+//  METHOD 1
+void unique(int n, int arr[]) {
+    int j;
+    for(int i=0; i<n; i++) {
+        for(j=0; j<n; j++) {
+            if (i!=j && arr[i]==arr[j])
+                break;                    
+        }
+        if(j==n)
+            cout<<arr[i]<<endl;
+    }
+}
 
 
 //  METHOD 2
